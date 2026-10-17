@@ -1,0 +1,13 @@
+[project]
+name = "ha-eon-energiemonitor"
+version = "0.1.0"
+description = "Home Assistant integration for the E.ON EnergieMonitor"
+requires-python = ">=3.14.2"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["custom_components"]

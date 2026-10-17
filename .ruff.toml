@@ -12,11 +12,18 @@ ignore = [
     "D203", # no-blank-line-before-class (incompatible with formatter)
     "D212", # multi-line-summary-first-line (incompatible with formatter)
     "COM812", # incompatible with formatter
+    "CPY001", # missing copyright notice (not used by Home Assistant core)
     "ISC001", # incompatible with formatter
 ]
 
 [lint.flake8-pytest-style]
 fixture-parentheses = false
+
+[lint.per-file-ignores]
+"tests/**" = [
+    "S101", # asserts are expected in tests
+    "PLR2004", # magic values are fine in tests
+]
 
 [lint.pyupgrade]
 keep-runtime-typing = true

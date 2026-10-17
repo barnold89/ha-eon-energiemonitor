@@ -1,0 +1,93 @@
+{
+  "entity": {
+    "sensor": {
+      "autarky": {
+        "default": "mdi:home-lightning-bolt"
+      },
+      "energy_mix": {
+        "default": "mdi:leaf"
+      },
+      "consumption": {
+        "default": "mdi:transmission-tower-export"
+      },
+      "generation": {
+        "default": "mdi:transmission-tower-import"
+      },
+      "renewable_generation": {
+        "default": "mdi:leaf-circle"
+      },
+      "grid_supply": {
+        "default": "mdi:transmission-tower-import"
+      },
+      "co2_savings_today": {
+        "default": "mdi:molecule-co2"
+      },
+      "measurement_start": {
+        "default": "mdi:clock-outline"
+      },
+      "generation_solar": {
+        "default": "mdi:solar-power-variant"
+      },
+      "generation_solar_installations": {
+        "default": "mdi:solar-panel"
+      },
+      "generation_solar_installed_capacity": {
+        "default": "mdi:solar-panel-large"
+      },
+      "generation_wind": {
+        "default": "mdi:wind-turbine"
+      },
+      "generation_wind_installations": {
+        "default": "mdi:wind-turbine"
+      },
+      "generation_wind_installed_capacity": {
+        "default": "mdi:wind-turbine"
+      },
+      "generation_bio": {
+        "default": "mdi:sprout"
+      },
+      "generation_bio_installations": {
+        "default": "mdi:sprout"
+      },
+      "generation_bio_installed_capacity": {
+        "default": "mdi:sprout"
+      },
+      "generation_water": {
+        "default": "mdi:hydro-power"
+      },
+      "generation_water_installations": {
+        "default": "mdi:hydro-power"
+      },
+      "generation_water_installed_capacity": {
+        "default": "mdi:hydro-power"
+      },
+      "generation_others": {
+        "default": "mdi:factory"
+      },
+      "generation_others_installations": {
+        "default": "mdi:factory"
+      },
+      "generation_others_installed_capacity": {
+        "default": "mdi:factory"
+      },
+      "consumption_domestic": {
+        "default": "mdi:home"
+      },
+      "consumption_domestic_installations": {
+        "default": "mdi:home-group"
+      },
+      "consumption_industrial": {
+        "default": "mdi:factory"
+      },
+      "consumption_industrial_installations": {
+        "default": "mdi:factory"
+      },
+      "consumption_public": {
+        "default": "mdi:town-hall"
+      },
+      "consumption_public_installations": {
+        "default": "mdi:town-hall"
+      }
+    }
+  }
+}

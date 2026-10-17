@@ -1,0 +1,24 @@
+{
+  "regions": [
+    {
+      "regionCode": "09162000",
+      "hidden": false,
+      "regionName": "München",
+      "regionUrlKey": "muenchen",
+      "coatOfArmsMimeType": "image/svg+xml",
+      "latitude": 48.137,
+      "longitude": 11.575,
+      "tenantId": "3190"
+    },
+    {
+      "regionCode": "09771113",
+      "hidden": false,
+      "regionName": "Gersthofen-Süd",
+      "regionUrlKey": "gersthofen-sued",
+      "coatOfArmsMimeType": "image/svg+xml",
+      "latitude": 48.4,
+      "longitude": 10.8,
+      "tenantId": "3190"
+    }
+  ]
+}

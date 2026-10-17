@@ -1,0 +1,145 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Netzbetreiber auswählen",
+        "description": "Wähle deinen Netzbetreiber aus. Im nächsten Schritt kannst du nach deiner Region suchen.",
+        "data": {
+          "tenant_id": "Netzbetreiber"
+        },
+        "data_description": {
+          "tenant_id": "Der Netzbetreiber, der den EnergieMonitor für deine Region bereitstellt."
+        }
+      },
+      "region": {
+        "title": "Region auswählen",
+        "description": "{count} Regionen verfügbar.",
+        "data": {
+          "region_code": "Region"
+        },
+        "data_description": {
+          "region_code": "Name der Region oder amtlicher Gemeindeschlüssel (AGS) eingeben und aus der Liste auswählen."
+        }
+      }
+    },
+    "error": {
+      "no_results": "Keine Region passt zu deiner Suche.",
+      "no_data": "Für diese Region sind derzeit keine Daten verfügbar.",
+      "cannot_connect": "Verbindung zum EnergieMonitor fehlgeschlagen."
+    },
+    "abort": {
+      "already_configured": "Diese Region ist bereits eingerichtet.",
+      "cannot_connect": "Verbindung zum EnergieMonitor fehlgeschlagen.",
+      "no_regions": "Der EnergieMonitor hat keine Regionen geliefert."
+    }
+  },
+  "selector": {
+    "tenant_id": {
+      "options": {
+        "all": "Alle Netzbetreiber"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "autarky": {
+        "name": "Eigenversorgung"
+      },
+      "energy_mix": {
+        "name": "Anteil erneuerbarer Energien"
+      },
+      "consumption": {
+        "name": "Verbrauch"
+      },
+      "generation": {
+        "name": "Erzeugung"
+      },
+      "renewable_generation": {
+        "name": "Erneuerbare Erzeugung"
+      },
+      "grid_supply": {
+        "name": "Netzbezug"
+      },
+      "co2_savings_today": {
+        "name": "CO2-Einsparung heute"
+      },
+      "measurement_start": {
+        "name": "Beginn Messintervall"
+      },
+      "generation_solar": {
+        "name": "Erzeugung Solar"
+      },
+      "generation_solar_installations": {
+        "name": "Anlagen Solar"
+      },
+      "generation_solar_installed_capacity": {
+        "name": "Installierte Leistung Solar"
+      },
+      "generation_wind": {
+        "name": "Erzeugung Wind"
+      },
+      "generation_wind_installations": {
+        "name": "Anlagen Wind"
+      },
+      "generation_wind_installed_capacity": {
+        "name": "Installierte Leistung Wind"
+      },
+      "generation_bio": {
+        "name": "Erzeugung Biomasse"
+      },
+      "generation_bio_installations": {
+        "name": "Anlagen Biomasse"
+      },
+      "generation_bio_installed_capacity": {
+        "name": "Installierte Leistung Biomasse"
+      },
+      "generation_water": {
+        "name": "Erzeugung Wasserkraft"
+      },
+      "generation_water_installations": {
+        "name": "Anlagen Wasserkraft"
+      },
+      "generation_water_installed_capacity": {
+        "name": "Installierte Leistung Wasserkraft"
+      },
+      "generation_others": {
+        "name": "Erzeugung Sonstige"
+      },
+      "generation_others_installations": {
+        "name": "Anlagen Sonstige"
+      },
+      "generation_others_installed_capacity": {
+        "name": "Installierte Leistung Sonstige"
+      },
+      "consumption_domestic": {
+        "name": "Verbrauch Haushalte"
+      },
+      "consumption_domestic_installations": {
+        "name": "Anschlüsse Haushalte"
+      },
+      "consumption_industrial": {
+        "name": "Verbrauch Gewerbe"
+      },
+      "consumption_industrial_installations": {
+        "name": "Anschlüsse Gewerbe"
+      },
+      "consumption_public": {
+        "name": "Verbrauch kommunale Anlagen"
+      },
+      "consumption_public_installations": {
+        "name": "Anschlüsse kommunale Anlagen"
+      }
+    }
+  },
+  "exceptions": {
+    "region_not_found": {
+      "message": "Die Region {region_code} existiert im EnergieMonitor nicht mehr."
+    },
+    "cannot_connect": {
+      "message": "Verbindung zum EnergieMonitor fehlgeschlagen: {error}"
+    },
+    "update_failed": {
+      "message": "Aktualisierung der EnergieMonitor-Daten fehlgeschlagen: {error}"
+    }
+  }
+}

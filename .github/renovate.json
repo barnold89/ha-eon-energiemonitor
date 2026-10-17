@@ -11,7 +11,10 @@
   "packageRules": [
     {
       "description": "Home Assistant should match the homeassistant key in hacs.json",
-      "matchPackageNames": ["homeassistant"],
+      "matchPackageNames": [
+        "homeassistant",
+        "pytest-homeassistant-custom-component"
+      ],
       "enabled": false
     }
   ]

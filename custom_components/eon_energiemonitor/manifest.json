@@ -1,0 +1,14 @@
+{
+  "domain": "eon_energiemonitor",
+  "name": "E.ON EnergieMonitor",
+  "codeowners": [
+    "@barnold89"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/barnold89/ha-eon-energiemonitor",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/barnold89/ha-eon-energiemonitor/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

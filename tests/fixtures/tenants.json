@@ -1,0 +1,82 @@
+[
+  {
+    "tenantId": "3190",
+    "tenantShort": "BAGR",
+    "tenantFull": "Bayernwerk Netz GmbH",
+    "lang": "de-DE",
+    "theme": "theme-bagr",
+    "hostnames": [
+      "d-energiemonitor.bayernwerk.de",
+      "q-energiemonitor.bayernwerk.de",
+      "energiemonitor.bayernwerk.de",
+      "bayernwerk.energiemonitor.de"
+    ],
+    "isDefault": true,
+    "visibleInListing": true,
+    "showPartnersSection": false,
+    "showHistoricAutarkySection": true,
+    "showHistoricEnergyMixSection": true,
+    "name": "Bayernwerk Netz GmbH"
+  },
+  {
+    "tenantId": "LEW",
+    "tenantShort": "LEW",
+    "tenantFull": "Lechwerke AG",
+    "lang": "de-DE",
+    "theme": "theme-bagr",
+    "hostnames": [
+      "dev.lew.energiemonitor.de",
+      "qas.lew.energiemonitor.de",
+      "lew.energiemonitor.de",
+      "d-energiemonitor.lew.de",
+      "q-energiemonitor.lew.de",
+      "energiemonitor.lew.de"
+    ],
+    "isDefault": false,
+    "visibleInListing": true,
+    "showPartnersSection": false,
+    "showHistoricAutarkySection": true,
+    "showHistoricEnergyMixSection": true,
+    "name": "Lechwerke AG",
+    "chartStyles": {
+      "bars": {
+        "colors": {
+          "DEFAULT": "#b68cfd",
+          "BIO": "#64b42d",
+          "WATER": "#00aae1",
+          "SOLAR": "#f59b00",
+          "WIND": "#005f59",
+          "CONSUMPTION": "#eb4b0a"
+        }
+      },
+      "lines": {
+        "stroke": "#eb4b0a"
+      },
+      "bullets": {
+        "circle": {
+          "fill": "white",
+          "stroke": "white",
+          "strokeWidth": 1
+        }
+      }
+    }
+  },
+  {
+    "tenantId": "2700",
+    "tenantShort": "enviaM",
+    "tenantFull": "envia Mitteldeutsche Energie AG",
+    "lang": "de-DE",
+    "theme": "theme-wn",
+    "hostnames": [
+      "dev.enviam.energiemonitor.de",
+      "qas.enviam.energiemonitor.de",
+      "enviam.energiemonitor.de"
+    ],
+    "isDefault": false,
+    "visibleInListing": true,
+    "showPartnersSection": false,
+    "showHistoricAutarkySection": true,
+    "showHistoricEnergyMixSection": true,
+    "name": "enviaM"
+  }
+]

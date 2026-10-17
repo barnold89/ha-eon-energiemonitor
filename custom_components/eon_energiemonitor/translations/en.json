@@ -1,0 +1,145 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Select your network operator",
+        "description": "Select your network operator. In the next step you can search for your region.",
+        "data": {
+          "tenant_id": "Network operator"
+        },
+        "data_description": {
+          "tenant_id": "The network operator (Netzbetreiber) providing the EnergieMonitor for your region."
+        }
+      },
+      "region": {
+        "title": "Select your region",
+        "description": "{count} regions available.",
+        "data": {
+          "region_code": "Region"
+        },
+        "data_description": {
+          "region_code": "Type the name of the region or its official municipality key (AGS) and pick it from the list."
+        }
+      }
+    },
+    "error": {
+      "no_results": "No region matches your search.",
+      "no_data": "There is currently no data available for this region.",
+      "cannot_connect": "Failed to connect to the EnergieMonitor service."
+    },
+    "abort": {
+      "already_configured": "This region is already configured.",
+      "cannot_connect": "Failed to connect to the EnergieMonitor service.",
+      "no_regions": "The EnergieMonitor service did not return any regions."
+    }
+  },
+  "selector": {
+    "tenant_id": {
+      "options": {
+        "all": "All network operators"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "autarky": {
+        "name": "Self-sufficiency"
+      },
+      "energy_mix": {
+        "name": "Renewable energy share"
+      },
+      "consumption": {
+        "name": "Consumption"
+      },
+      "generation": {
+        "name": "Generation"
+      },
+      "renewable_generation": {
+        "name": "Renewable generation"
+      },
+      "grid_supply": {
+        "name": "Grid supply"
+      },
+      "co2_savings_today": {
+        "name": "CO2 savings today"
+      },
+      "measurement_start": {
+        "name": "Measurement interval start"
+      },
+      "generation_solar": {
+        "name": "Solar generation"
+      },
+      "generation_solar_installations": {
+        "name": "Solar installations"
+      },
+      "generation_solar_installed_capacity": {
+        "name": "Solar installed capacity"
+      },
+      "generation_wind": {
+        "name": "Wind generation"
+      },
+      "generation_wind_installations": {
+        "name": "Wind installations"
+      },
+      "generation_wind_installed_capacity": {
+        "name": "Wind installed capacity"
+      },
+      "generation_bio": {
+        "name": "Biomass generation"
+      },
+      "generation_bio_installations": {
+        "name": "Biomass installations"
+      },
+      "generation_bio_installed_capacity": {
+        "name": "Biomass installed capacity"
+      },
+      "generation_water": {
+        "name": "Hydro generation"
+      },
+      "generation_water_installations": {
+        "name": "Hydro installations"
+      },
+      "generation_water_installed_capacity": {
+        "name": "Hydro installed capacity"
+      },
+      "generation_others": {
+        "name": "Other generation"
+      },
+      "generation_others_installations": {
+        "name": "Other generation installations"
+      },
+      "generation_others_installed_capacity": {
+        "name": "Other generation installed capacity"
+      },
+      "consumption_domestic": {
+        "name": "Household consumption"
+      },
+      "consumption_domestic_installations": {
+        "name": "Household connections"
+      },
+      "consumption_industrial": {
+        "name": "Commercial consumption"
+      },
+      "consumption_industrial_installations": {
+        "name": "Commercial connections"
+      },
+      "consumption_public": {
+        "name": "Municipal facilities consumption"
+      },
+      "consumption_public_installations": {
+        "name": "Municipal facilities connections"
+      }
+    }
+  },
+  "exceptions": {
+    "region_not_found": {
+      "message": "Region {region_code} does not exist anymore in the EnergieMonitor."
+    },
+    "cannot_connect": {
+      "message": "Failed to connect to the EnergieMonitor service: {error}"
+    },
+    "update_failed": {
+      "message": "Failed to update EnergieMonitor data: {error}"
+    }
+  }
+}

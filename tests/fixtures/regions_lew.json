@@ -1,0 +1,94 @@
+{
+  "regions": [
+    {
+      "regionCode": "09778121",
+      "hidden": false,
+      "regionName": "Breitenbrunn",
+      "regionUrlKey": "breitenbrunn",
+      "coatOfArmsMimeType": "image/svg+xml",
+      "latitude": 48.1333,
+      "longitude": 10.4,
+      "tenantId": "LEW"
+    },
+    {
+      "regionCode": "09772147",
+      "hidden": false,
+      "regionName": "Gersthofen",
+      "regionUrlKey": "gersthofen",
+      "coatOfArmsMimeType": "image/png",
+      "latitude": 48.42425,
+      "longitude": 10.876347,
+      "tenantId": "LEW"
+    },
+    {
+      "regionCode": "09774136",
+      "hidden": false,
+      "regionName": "Gundremmingen",
+      "regionUrlKey": "gundremmingen",
+      "coatOfArmsMimeType": "image/svg+xml",
+      "latitude": 48.498713,
+      "longitude": 10.403723,
+      "tenantId": "LEW"
+    },
+    {
+      "regionCode": "09775162",
+      "hidden": false,
+      "regionName": "Vöhringen",
+      "regionUrlKey": "voehringen",
+      "coatOfArmsMimeType": "image/svg+xml",
+      "latitude": 48.283304,
+      "longitude": 10.083298,
+      "tenantId": "LEW"
+    },
+    {
+      "regionCode": "09772000",
+      "hidden": false,
+      "regionName": "Landkreis Augsburg",
+      "regionUrlKey": "landkreis-augsburg",
+      "coatOfArmsMimeType": "image/svg+xml",
+      "latitude": 48.370545,
+      "longitude": 10.89779,
+      "tenantId": "LEW"
+    },
+    {
+      "regionCode": "09772197",
+      "hidden": false,
+      "regionName": "Scherstetten",
+      "regionUrlKey": "scherstetten",
+      "coatOfArmsMimeType": "image/svg+xml",
+      "latitude": 48.104926,
+      "longitude": 10.382756,
+      "tenantId": "LEW"
+    },
+    {
+      "regionCode": "LEWSCHWABEN",
+      "hidden": false,
+      "regionName": "LEW Energiemonitor Bayerisch-Schwaben",
+      "regionUrlKey": "lew-schwaben",
+      "coatOfArmsMimeType": "image/svg+xml",
+      "latitude": 48.370545,
+      "longitude": 10.89779,
+      "tenantId": "LEW"
+    },
+    {
+      "regionCode": "09764000",
+      "hidden": false,
+      "regionName": "Memmingen",
+      "regionUrlKey": "memmingen",
+      "coatOfArmsMimeType": "image/svg+xml",
+      "latitude": 47.9838,
+      "longitude": 10.180188,
+      "tenantId": "LEW"
+    },
+    {
+      "regionCode": "09772999",
+      "hidden": true,
+      "regionName": "Hidden Town",
+      "regionUrlKey": "hidden-town",
+      "coatOfArmsMimeType": "image/png",
+      "latitude": 48.0,
+      "longitude": 10.0,
+      "tenantId": "LEW"
+    }
+  ]
+}
